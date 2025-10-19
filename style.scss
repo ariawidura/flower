@@ -1359,4 +1359,24 @@ body {
 
 .not-loaded * {
   animation-play-state: paused !important;
+
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  font-size: 20px;
+  border-radius: 50px;
+  font-family: monospace;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+.whatsapp-btn:hover {
+  background-color: #1ebd5a;
+  transform: scale(1.1);
 }
